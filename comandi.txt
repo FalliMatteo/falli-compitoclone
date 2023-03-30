@@ -1,0 +1,30 @@
+   54  git merge newFeature-Navbar
+   55  git add .
+   56  gitr commit -m "Commit particolare"
+   57  git commit -m "Commit particolare"
+   58  git checkout newFeature-Navbar 
+   59  git add .
+   60  git commit -m "Commit particolare 2"
+   61  git checkout master
+   62  git add .
+   63  git commit -m "Commit particolare 3"
+   64  git branch
+   65  git merge newFeature-Navbar 
+   66  git push origin master
+   67  clear
+   68  cd ../
+   69  git clone https://github.com/sena-meucci/progettoStampa.git
+   70  cd progettoStampa/
+   71  git config user.name "FalliMatteo"
+   72  git config user.email "falli.matteo@itismeucci.com"
+   73  git add .
+   74  git commit -m "Inserito nome"
+   75  git branch "BugFix"
+   76  git checkout BugFix 
+   77  git add .
+   78  git commit -m "Errore risolto"
+   79  git checkout master 
+   80  git merge BugFix 
+   81  git log
+   82  clear
+   83  history 30 > comandi.txt
